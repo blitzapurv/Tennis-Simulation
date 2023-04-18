@@ -1,6 +1,6 @@
 # Tennis-Simulation
 
-Virtual Tennis game simulation with dynamic markets and winning odds.
+Virtual Tennis game simulation using ML, with dynamic markets and winning odds.
 
 #### Run with Streamlit
     streamlit run ui.py server.port=8501
