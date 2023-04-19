@@ -12,7 +12,7 @@ import pickle
 from utils import get_encoder
 
 
-Server_win = pickle.load(open('model_pkl_tuned_new_features','rb'))    
+Server_win = pickle.load(open('models/classifier.pkl','rb'))    
 encoder = get_encoder(col='player')
 df_info = pd.read_csv("data/data.csv", index_col=0)
 
